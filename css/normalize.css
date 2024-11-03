@@ -383,6 +383,7 @@ a {
     cursor: pointer;
     display: inline-block;
     color: #191A23;
+    transition: 1s ease;
 }
 a:hover {
     transform: scale(1.1);

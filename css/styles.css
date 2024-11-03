@@ -137,13 +137,13 @@ main a {
   margin-bottom: 80px;
 }
 
-.services-header, .cases-header, .process-header {
+.services-header, .cases-header, .process-header, .team-header {
   display: flex;
   flex-direction: row;
   align-items: center;
   margin-bottom: 80px;
 }
-.services-header h3, .cases-header h3, .process-header h3 {
+.services-header h3, .cases-header h3, .process-header h3, .team-header h3 {
   margin: 0;
   font-weight: 500;
   font-size: 40px;
@@ -154,7 +154,7 @@ main a {
   text-align: center;
   margin-right: 40px;
 }
-.services-header p, .cases-header p, .process-header p {
+.services-header p, .cases-header p, .process-header p, .team-header p {
   font-weight: 400;
   font-size: 18px;
   color: var(--black);
@@ -349,6 +349,10 @@ main a {
   gap: 15px;
 }
 
+.process {
+  margin-bottom: 140px;
+}
+
 .process-header p {
   width: 292px;
 }
@@ -410,4 +414,77 @@ main a {
 }
 .process-step:hover .top-block {
   border-bottom: 1px solid var(--dark);
+}
+
+.team {
+  margin-bottom: 100px;
+}
+.team > a {
+  display: inline;
+  float: right;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  text-align: center;
+  color: var(--white);
+  background: var(--dark);
+  border-radius: 14px;
+  padding: 20px 35px;
+}
+
+.team-grid {
+  display: grid;
+  gap: 40px;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 40px;
+}
+
+.team-item {
+  border: 1px solid var(--dark);
+  border-radius: 45px;
+  padding: 40px 35px;
+  box-shadow: 0 5px 0 0 var(--dark);
+  background: var(--white);
+  transition: 1s ease;
+}
+.team-item > p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--black);
+  margin-top: 28px;
+}
+.team-item:hover {
+  transform: scale(1.05);
+}
+
+.title-block {
+  display: flex;
+  position: relative;
+  align-items: last baseline;
+  padding-bottom: 28px;
+  border-bottom: 1px solid var(--dark);
+}
+.title-block .title-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.title-block .title-text h3 {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--black);
+}
+.title-block .title-text p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--black);
+}
+.title-block > a {
+  position: absolute;
+  top: 0;
+  right: 0;
 }/*# sourceMappingURL=styles.css.map */
