@@ -1,0 +1,30 @@
+.wrapper {
+    background: grey;
+    width: 1000px;
+    border-radius: 45px;
+    padding: 45px;
+    margin: 0 auto;
+    height: 100px;
+    overflow: hidden;
+    transition: 1s ease;
+}
+
+.wrapper:hover {
+    background: green;
+    height: 300px;
+    
+}
+
+h1 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 60px;
+    color: black;
+}
+
+h2 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 30px;
+    color: black;
+}
